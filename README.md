@@ -25,5 +25,6 @@ ElectraSpacer는 KoCharELECTRA를 사용하여 Wordpiece-level이 아닌 Charact
 | Accuracy | 97% | 98% | **99%** |
 | F1 Score | 95% | 97% | **98%** |
 
-ElectraSpacer의 자세한 구성은 **electra_architecture.pdf** 파일을 확인해주세요.
+ElectraSpacer 모델의 자세한 내용은 **electra_architecture.pdf** 파일을 확인해주세요.
 
+## How to use
