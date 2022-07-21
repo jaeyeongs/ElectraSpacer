@@ -30,3 +30,13 @@ ElectraSpacer는 KoCharELECTRA를 사용하여 Wordpiece-level이 아닌 Charact
 ## Usage
 
 ### Tokenizer
+
+ElectraSpacer는 아래와 같이 KoCharElectraTokenizer를 사용하여 character(음절) 단위로 토큰화
+
+```
+from tokenization_kocharelectra import KoCharElectraTokenizer
+tokenizer = KoCharElectraTokenizer.from_pretrained("monologg/kocharelectra-base-discriminator")
+tokenizer.tokenize("나는 걸어가고 있는 중입니다.")
+
+['나', '는', ' ', '걸', '어', '가', '고', ' ', '있', '는', ' ', '중', '입', '니', '다', '.']
+```
