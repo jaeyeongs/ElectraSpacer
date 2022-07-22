@@ -40,3 +40,15 @@ tokenizer.tokenize("나는 걸어가고 있는 중입니다.")
 
 ['나', '는', ' ', '걸', '어', '가', '고', ' ', '있', '는', ' ', '중', '입', '니', '다', '.']
 ```
+
+### Inference
+
+
+```
+from spaceprediction import ElectraSpacer
+
+electraspacer = ElectraSpacer()
+electraspacer("나는걸어가고 있는중입니다.")
+
+"나는 걸어가고 있는 중입니다."
+```
