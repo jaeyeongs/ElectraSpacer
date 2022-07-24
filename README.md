@@ -44,6 +44,10 @@ tokenizer.tokenize("나는 걸어가고 있는 중입니다.")
 ### Inference
 
 
+### Predict
+
+predict.py 실행을 하면 results 폴더에 predictions.json 으로 결과 저장
+
 ```
 from spaceprediction import ElectraSpacer
 
@@ -52,6 +56,3 @@ electraspacer("나는걸어가고 있는중입니다.")
 
 "나는 걸어가고 있는 중입니다."
 ```
-
-### Inference
-
