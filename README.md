@@ -31,7 +31,7 @@ ElectraSpacer는 KoCharELECTRA를 사용하여 Wordpiece-level이 아닌 Charact
 
 ### Tokenizer
 
-ElectraSpacer는 아래와 같이 KoCharElectraTokenizer를 사용하여 character(음절) 단위로 토큰화
+ElectraSpacer는 아래와 같이 KoCharElectraTokenizer를 사용하여 character(음절) 단위로 토큰화합니다.
 
 ```
 from tokenization_kocharelectra import KoCharElectraTokenizer
@@ -43,10 +43,11 @@ tokenizer.tokenize("나는 걸어가고 있는 중입니다.")
 
 ### Inference
 
+inference.py 실행을 하면 results 폴더에 predictions.json 으로 결과가 저장됩니다.
 
 ### Predict
 
-predict.py 실행을 하면 results 폴더에 predictions.json 으로 결과 저장
+predict.py 실행을 하면 띄어쓰기 교정을 바로 확인 할 수 있습니다.
 
 ```
 from spaceprediction import ElectraSpacer
