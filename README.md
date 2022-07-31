@@ -43,7 +43,7 @@ tokenizer.tokenize("나는 걸어가고 있는 중입니다.")
 
 ### Inference
 
-inference.py 실행을 하면 results 폴더에 predictions.json 으로 결과가 저장됩니다.
+**inference.py** 실행을 하면 results 폴더에 predictions.json 으로 결과가 저장됩니다.
 
 ```
 "0": [
@@ -55,7 +55,7 @@ inference.py 실행을 하면 results 폴더에 predictions.json 으로 결과�
 
 ### Predict
 
-predict.py 실행을 하면 띄어쓰기 교정을 바로 확인 할 수 있습니다.
+**predict.py** 실행을 하면 띄어쓰기 교정을 바로 확인 할 수 있습니다.
 
 ```
 from spaceprediction import ElectraSpacer
