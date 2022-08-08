@@ -66,7 +66,7 @@ electraspacer("나는걸어가고 있는중입니다.")
 >> "나는 걸어가고 있는 중입니다."
 ```
 
-### Reference
+## Reference
 
 - [KoCharELECTRA](https://github.com/monologg/KoCharELECTRA "KoCharELECTRA")
 - [ELECTRA](https://github.com/google-research/electra "ELECTRA")
