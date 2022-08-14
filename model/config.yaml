@@ -1,0 +1,14 @@
+tokenizer_name: "monologg/kocharelectra-small-discriminator" #'monologg/kobert'
+model_name: 'monologg/kocharelectra-small-discriminator'
+train_data_path: '../data/dw-train.csv'
+val_data_path: '../data/dw-dev.csv'
+test_data_path: '../data/dw-test.csv'
+model_path: './models'
+output_dir: './results'
+
+# training arguments
+output_dir: './results'
+max_len: 256
+epochs: 10
+steps: 100
+batch_size: 32
