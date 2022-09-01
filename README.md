@@ -68,6 +68,8 @@ electraspacer("나는걸어가고 있는중입니다.")
 
 ## Reference
 
-- [KoCharELECTRA](https://github.com/monologg/KoCharELECTRA "KoCharELECTRA")
-- [ELECTRA](https://github.com/google-research/electra "ELECTRA")
-- [Between-Spaces](https://github.com/boostcampaitech2/final-project-level3-nlp-03 "Between-Spaces")
+[1] [KoCharELECTRA](https://github.com/monologg/KoCharELECTRA "KoCharELECTRA")
+
+[2] [ELECTRA](https://github.com/google-research/electra "ELECTRA")
+
+[3] [Between-Spaces](https://github.com/boostcampaitech2/final-project-level3-nlp-03 "Between-Spaces")
