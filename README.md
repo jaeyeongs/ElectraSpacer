@@ -25,7 +25,7 @@ ElectraSpacer는 KoCharELECTRA를 사용하여 음절 단위로 tokenizer를 이
 | Accuracy | 97% | 98% | **99%** |
 | F1 Score | 95% | 97% | **98%** |
 
-자세한 내용은 **electra_architecture.pdf** 파일을 확인해주세요.
+자세한 내용은 [*이곳*](https://github.com/jaeyeongs/research-development/tree/main/NLP/ElectraSpacer "ElectraSpacer")를 확인해주세요.
 
 ## Usage
 
