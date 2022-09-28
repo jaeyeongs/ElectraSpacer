@@ -46,6 +46,11 @@ tokenizer.tokenize("나는 걸어가고 있는 중입니다.")
 **inference.py** 실행을 하면 results 폴더에 predictions.json 으로 결과가 저장됩니다.
 
 ```
+$ python inference.py
+
+```
+
+```
 "0": [
   "나는철수에게공을던져다주었다.",
   "나는 철수에게 공을 던져다 주었다.",
@@ -56,6 +61,10 @@ tokenizer.tokenize("나는 걸어가고 있는 중입니다.")
 ### Predict
 
 **predict.py** 실행을 하면 띄어쓰기 교정을 바로 확인 할 수 있습니다.
+
+```
+$ python predict.py
+```
 
 ```
 from spaceprediction import ElectraSpacer
