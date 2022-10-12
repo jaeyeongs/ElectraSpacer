@@ -2,7 +2,7 @@
 
 ## What is ElectraSpacer?
 
-ElectraSpacer는 KoCharELECTRA를 사용하여 음절 단위로 tokenizer를 이용한 ELECTRA 모델 기반 한국어 자동 띄어쓰기 모델입니다.
+ElectraSpacer는 KoCharELECTRA를 사용하여 음절 단위로 tokenizer를 이용한 ELECTRA 기반 한국어 자동 띄어쓰기 모델입니다.
 
 ## Dataset
 
